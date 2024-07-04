@@ -1,4 +1,4 @@
-import DataKecamatan from "../model/dataModel";
+import DataKecamatan from "../model/dataModel.js";
 
 export const getAllDataKecamatan = async (req, res) => {
   try {

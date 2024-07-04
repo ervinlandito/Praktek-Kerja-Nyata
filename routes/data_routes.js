@@ -2,7 +2,7 @@ import express from "express";
 import {
   createDataKecamatan,
   getAllDataKecamatan,
-} from "../controllers/dataController";
+} from "../controllers/dataController.js";
 
 const router = express.Router();
 
