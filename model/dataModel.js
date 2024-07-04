@@ -51,8 +51,8 @@ const DataKecamatan = db.define(
   }
 );
 
-(async () => {
-  await db.sync({ alter: true });
-})();
+// (async () => {
+//   await db.sync({ alter: true });
+// })();
 
 export default DataKecamatan;

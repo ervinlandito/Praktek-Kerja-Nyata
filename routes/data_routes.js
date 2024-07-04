@@ -6,7 +6,7 @@ import {
 
 const router = express.Router();
 
-router.get("/data_kecamatan", getAllDataKecamatan);
-router.post("/data_kecamatan/:id", createDataKecamatan);
+router.get("/api/data_kecamatan", getAllDataKecamatan);
+router.post("/api/data_kecamatan", createDataKecamatan);
 
 export default router;
