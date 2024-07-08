@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-import { setCronJobData } from "../helper/cron-scheduler.js";
->>>>>>> fe632c22603b7029a73f365909ad75aaf4f1b72c
 import DataKecamatan from "../model/dataModel.js";
 
 export const getAllDataKecamatan = async (req, res) => {
@@ -54,3 +50,4 @@ export const createDataKecamatan = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
