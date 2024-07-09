@@ -24,7 +24,7 @@ export function startScheduler(params) {
     "*/1 * * * *",
     () => {
       console.log(`Run a cronJob to add to Database`);
-      //getDataRealisasi()
+      // getDataRealisasi()
       axios.post('http://localhost:5000/api/data-realisasi')
       addToDatabase();
     },
