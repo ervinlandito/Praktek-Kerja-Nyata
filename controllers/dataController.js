@@ -3,6 +3,10 @@ import axios from "axios";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import dotenv from "dotenv";
+import moment from 'moment-timezone';
+
+dotenv.config(); // Load environment variables from .env file
 
 export const getAllDataKecamatan = async (req, res) => {
   try {
@@ -56,8 +60,10 @@ export const createDataKecamatan = async (req, res) => {
 export const getDataRealisasi = async (req, res) =>{
   try {
     console.log('Memanggil getDataRealisasi pada jam 23:55 setiap hari');
+    console.log("DB NAME:", process.env.DB_NAME);
+    console.log("URL NAME:", process.env.URL_API);
     const tanggal = getFormattedDate();
-    const dataRealiasi = await axios.post("https://esppt.id/simpbb/api/data-realisasi",{
+    const dataRealiasi = await axios.post(`${process.env.URL_API}/data-realisasi`,{
       tanggal : tanggal
     })
 
@@ -92,13 +98,20 @@ export const getDataRealisasi = async (req, res) =>{
         }
       });
     }
+    logOperation({
+      status: 'success',
+      timestamp: moment().tz('Asia/Jakarta').format(),
+      details: `Data successfully retrieved and saved for date ${tanggal}`
+    });
 
-    // console.log(dataRealiasi.data)
-    // res.json(dataRealiasi.data);
-    res.status(201).json({message: `Data Saved at ${filePath}`})
+    return dataRealiasi.data;
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: error });
+    logOperation({
+      status: 'error',
+      timestamp: moment().tz('Asia/Jakarta').format(),
+      details: error.message
+    });
   }
 }
 
@@ -110,3 +123,36 @@ const getFormattedDate = () => {
   return `${year}-${month}-${day}`;
 };
 
+const logOperation = (logEntry) => {
+  const __filename = fileURLToPath(import.meta.url);
+  const __dirname = path.dirname(__filename);
+  const logDirectory = path.join(__dirname, '..', 'logging');
+  const logFilePath = path.join(logDirectory, 'log.json');
+
+  // Ensure the logging directory exists
+  if (!fs.existsSync(logDirectory)) {
+    fs.mkdirSync(logDirectory, { recursive: true });
+  }
+
+  let logs = [];
+
+  // Read existing logs if the log file exists and is not empty
+  if (fs.existsSync(logFilePath)) {
+    try {
+      const logData = fs.readFileSync(logFilePath, 'utf8');
+      if (logData) {
+        logs = JSON.parse(logData);
+      }
+    } catch (error) {
+      console.error('Error parsing log file:', error);
+      // If there's an error, we'll start with an empty log array
+      logs = [];
+    }
+  }
+
+  // Append new log entry
+  logs.push(logEntry);
+
+  // Write updated logs to file
+  fs.writeFileSync(logFilePath, JSON.stringify(logs, null, 2));
+};

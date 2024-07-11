@@ -1,7 +1,15 @@
 import { Sequelize } from "sequelize";
+import dotenv from "dotenv";
 
-const db = new Sequelize("data_penduduk", "root", "", {
-  host: "localhost",
+dotenv.config(); // Load environment variables from .env file
+
+console.log("DB IN DATABASE : ",process.env.DB_NAME)
+console.log("DB IN DATABASE : ",process.env.DB_USERNAME)
+console.log("DB IN DATABASE : ",process.env.DB_HOST)
+
+
+const db = new Sequelize(process.env.DB_NAME, process.env.DB_USERNAME, "", {
+  host: process.env.DB_HOST,
   dialect: "mysql",
 });
 
