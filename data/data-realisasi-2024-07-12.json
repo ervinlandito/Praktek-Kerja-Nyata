@@ -1,0 +1,302 @@
+{
+  "isFalse": false,
+  "data": [
+    {
+      "kecamatan": "AMPEL GADING",
+      "jumlah_objek": 29278,
+      "baku": 818677119,
+      "pokok": 982142687,
+      "denda": null,
+      "realisasi": 982142687,
+      "persentase_realisasi": 54.539
+    },
+    {
+      "kecamatan": "TIRTOYUDO",
+      "jumlah_objek": 30045,
+      "baku": 889291431,
+      "pokok": 876408604,
+      "denda": null,
+      "realisasi": 876408604,
+      "persentase_realisasi": 49.635
+    },
+    {
+      "kecamatan": "DONOMULYO",
+      "jumlah_objek": 51405,
+      "baku": 1567604777,
+      "pokok": 1407685802,
+      "denda": null,
+      "realisasi": 1407685802,
+      "persentase_realisasi": 47.313
+    },
+    {
+      "kecamatan": "KALIPARE",
+      "jumlah_objek": 37747,
+      "baku": 1114089350,
+      "pokok": 980291565,
+      "denda": null,
+      "realisasi": 980291565,
+      "persentase_realisasi": 46.806
+    },
+    {
+      "kecamatan": "KROMENGAN",
+      "jumlah_objek": 28751,
+      "baku": 833577940,
+      "pokok": 647102731,
+      "denda": null,
+      "realisasi": 647102731,
+      "persentase_realisasi": 43.703
+    },
+    {
+      "kecamatan": "NGANTANG",
+      "jumlah_objek": 48093,
+      "baku": 1363754095,
+      "pokok": 816064009,
+      "denda": null,
+      "realisasi": 816064009,
+      "persentase_realisasi": 37.437
+    },
+    {
+      "kecamatan": "PAKISAJI",
+      "jumlah_objek": 39542,
+      "baku": 1328403843,
+      "pokok": 778210263,
+      "denda": null,
+      "realisasi": 778210263,
+      "persentase_realisasi": 36.941
+    },
+    {
+      "kecamatan": "WAGIR",
+      "jumlah_objek": 47551,
+      "baku": 1413498431,
+      "pokok": 742072577,
+      "denda": null,
+      "realisasi": 742072577,
+      "persentase_realisasi": 34.426
+    },
+    {
+      "kecamatan": "DAU",
+      "jumlah_objek": 41613,
+      "baku": 2231777791,
+      "pokok": 1050201276,
+      "denda": null,
+      "realisasi": 1050201276,
+      "persentase_realisasi": 31.999
+    },
+    {
+      "kecamatan": "LAWANG",
+      "jumlah_objek": 51378,
+      "baku": 2107259906,
+      "pokok": 933290704,
+      "denda": null,
+      "realisasi": 933290704,
+      "persentase_realisasi": 30.695
+    },
+    {
+      "kecamatan": "PAKIS",
+      "jumlah_objek": 67656,
+      "baku": 3195355740,
+      "pokok": 1285973154,
+      "denda": null,
+      "realisasi": 1285973154,
+      "persentase_realisasi": 28.696
+    },
+    {
+      "kecamatan": "KARANGPLOSO",
+      "jumlah_objek": 50536,
+      "baku": 2409325362,
+      "pokok": 917880275,
+      "denda": null,
+      "realisasi": 917880275,
+      "persentase_realisasi": 27.587
+    },
+    {
+      "kecamatan": "SINGOSARI",
+      "jumlah_objek": 81934,
+      "baku": 3521123680,
+      "pokok": 1293647206,
+      "denda": null,
+      "realisasi": 1293647206,
+      "persentase_realisasi": 26.868
+    },
+    {
+      "kecamatan": "KEPANJEN",
+      "jumlah_objek": 48848,
+      "baku": 2375291418,
+      "pokok": 840733262,
+      "denda": null,
+      "realisasi": 840733262,
+      "persentase_realisasi": 26.142
+    },
+    {
+      "kecamatan": "PAGAK",
+      "jumlah_objek": 23493,
+      "baku": 966073983,
+      "pokok": 319902031,
+      "denda": null,
+      "realisasi": 319902031,
+      "persentase_realisasi": 24.876
+    },
+    {
+      "kecamatan": "SUMBERMANJING WETAN",
+      "jumlah_objek": 49532,
+      "baku": 2967748725,
+      "pokok": 840467121,
+      "denda": null,
+      "realisasi": 840467121,
+      "persentase_realisasi": 22.07
+    },
+    {
+      "kecamatan": "WONOSARI",
+      "jumlah_objek": 35415,
+      "baku": 1121171161,
+      "pokok": 284410010,
+      "denda": null,
+      "realisasi": 284410010,
+      "persentase_realisasi": 20.234
+    },
+    {
+      "kecamatan": "DAMPIT",
+      "jumlah_objek": 68655,
+      "baku": 2607227387,
+      "pokok": 607723809,
+      "denda": null,
+      "realisasi": 607723809,
+      "persentase_realisasi": 18.903
+    },
+    {
+      "kecamatan": "SUMBERPUCUNG",
+      "jumlah_objek": 28097,
+      "baku": 1388747688,
+      "pokok": 318716395,
+      "denda": null,
+      "realisasi": 318716395,
+      "persentase_realisasi": 18.666
+    },
+    {
+      "kecamatan": "TUREN",
+      "jumlah_objek": 60165,
+      "baku": 2306060272,
+      "pokok": 517424049,
+      "denda": null,
+      "realisasi": 517424049,
+      "persentase_realisasi": 18.326
+    },
+    {
+      "kecamatan": "WAJAK",
+      "jumlah_objek": 48620,
+      "baku": 1917107804,
+      "pokok": 417991278,
+      "denda": null,
+      "realisasi": 417991278,
+      "persentase_realisasi": 17.9
+    },
+    {
+      "kecamatan": "TUMPANG",
+      "jumlah_objek": 48809,
+      "baku": 1723626009,
+      "pokok": 359497281,
+      "denda": null,
+      "realisasi": 359497281,
+      "persentase_realisasi": 17.258
+    },
+    {
+      "kecamatan": "PUJON",
+      "jumlah_objek": 38154,
+      "baku": 1845295377,
+      "pokok": 384516139,
+      "denda": null,
+      "realisasi": 384516139,
+      "persentase_realisasi": 17.244
+    },
+    {
+      "kecamatan": "NGAJUM",
+      "jumlah_objek": 40700,
+      "baku": 1332400451,
+      "pokok": 268233909,
+      "denda": null,
+      "realisasi": 268233909,
+      "persentase_realisasi": 16.758
+    },
+    {
+      "kecamatan": "TAJINAN",
+      "jumlah_objek": 35702,
+      "baku": 1247449856,
+      "pokok": 241667985,
+      "denda": null,
+      "realisasi": 241667985,
+      "persentase_realisasi": 16.229
+    },
+    {
+      "kecamatan": "PONCOKUSUMO",
+      "jumlah_objek": 71513,
+      "baku": 2482510504,
+      "pokok": 452563146,
+      "denda": null,
+      "realisasi": 452563146,
+      "persentase_realisasi": 15.419
+    },
+    {
+      "kecamatan": "KASEMBON",
+      "jumlah_objek": 21017,
+      "baku": 866837933,
+      "pokok": 155325821,
+      "denda": null,
+      "realisasi": 155325821,
+      "persentase_realisasi": 15.196
+    },
+    {
+      "kecamatan": "BULULAWANG",
+      "jumlah_objek": 35635,
+      "baku": 1764314398,
+      "pokok": 315576262,
+      "denda": null,
+      "realisasi": 315576262,
+      "persentase_realisasi": 15.173
+    },
+    {
+      "kecamatan": "BANTUR",
+      "jumlah_objek": 32003,
+      "baku": 1830586179,
+      "pokok": 300433978,
+      "denda": null,
+      "realisasi": 300433978,
+      "persentase_realisasi": 14.098
+    },
+    {
+      "kecamatan": "GONDANGLEGI",
+      "jumlah_objek": 40383,
+      "baku": 1963128904,
+      "pokok": 283958746,
+      "denda": null,
+      "realisasi": 283958746,
+      "persentase_realisasi": 12.637
+    },
+    {
+      "kecamatan": "JABUNG",
+      "jumlah_objek": 41119,
+      "baku": 1541596541,
+      "pokok": 111906630,
+      "denda": null,
+      "realisasi": 111906630,
+      "persentase_realisasi": 6.768
+    },
+    {
+      "kecamatan": "PAGELARAN",
+      "jumlah_objek": 40556,
+      "baku": 1730303196,
+      "pokok": 113036350,
+      "denda": null,
+      "realisasi": 113036350,
+      "persentase_realisasi": 6.132
+    },
+    {
+      "kecamatan": "GEDANGAN",
+      "jumlah_objek": 34598,
+      "baku": 1932973411,
+      "pokok": 90742679,
+      "denda": null,
+      "realisasi": 90742679,
+      "persentase_realisasi": 4.484
+    }
+  ]
+}

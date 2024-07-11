@@ -21,7 +21,7 @@ const addToDatabase = async () => {
 
 export function startScheduler(params) {
   cron.schedule(
-    "*/1 * * * *",
+    "55 23 * * *",
     () => {
       console.log(`Run a cronJob to add to Database`);
       getDataRealisasi()
