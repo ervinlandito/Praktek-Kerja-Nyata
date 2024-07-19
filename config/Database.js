@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 import dotenv from "dotenv";
 
-dotenv.config(); // Load environment variables from .env file
+dotenv.config(); 
 
 console.log("DB IN DATABASE : ",process.env.DB_NAME)
 console.log("DB IN DATABASE : ",process.env.DB_USERNAME)
