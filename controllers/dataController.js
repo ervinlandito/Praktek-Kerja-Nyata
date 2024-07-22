@@ -86,9 +86,9 @@ export const getDataRealisasi = async (req, res) => {
     });
     }catch(error){
       logOperation({
-        status: 'post error',
+        status: 'error',
         timestamp: moment().tz('Asia/Jakarta').format(),
-        details: `${error.message}`
+        details: `DB not connect ${error.message}`
       });
     }
     
@@ -117,7 +117,7 @@ const logOperation = (logEntry) => {
   const __dirname = path.dirname(__filename);
   const logDirectory = path.join(__dirname, '..', 'logging');
   const currentDate = moment().tz('Asia/Jakarta').format('YYYY-MM-DD');
-  const logFilePath = path.join(logDirectory, `histori-${currentDate}.json`);
+  const logFilePath = path.join(logDirectory, `history-${currentDate}.json`);
 
   if (!fs.existsSync(logDirectory)) {
     fs.mkdirSync(logDirectory, { recursive: true });

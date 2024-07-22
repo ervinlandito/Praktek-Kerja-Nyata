@@ -1,0 +1,42 @@
+[
+  {
+    "status": "success",
+    "timestamp": "2024-07-20T13:06:26+07:00",
+    "details": "Successfully get data from https://esppt.id/simpbb/api/ for date 2024-07-20"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-07-20T13:06:27+07:00",
+    "details": "Data successfully retrieved and saved on db for date 2024-07-20"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-07-20T13:07:03+07:00",
+    "details": "Successfully get data from https://esppt.id/simpbb/api/ for date 2024-07-20"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-07-20T13:07:03+07:00",
+    "details": "Data successfully retrieved and saved on db for date 2024-07-20"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-07-20T13:14:02+07:00",
+    "details": "Successfully get data from https://esppt.id/simpbb/api/ for date 2024-07-20"
+  },
+  {
+    "status": "post error",
+    "timestamp": "2024-07-20T13:14:02+07:00",
+    "details": ""
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-07-20T13:23:01+07:00",
+    "details": "Successfully get data from https://esppt.id/simpbb/api/ for date 2024-07-20"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-07-20T13:23:01+07:00",
+    "details": "DB not connect : "
+  }
+]
