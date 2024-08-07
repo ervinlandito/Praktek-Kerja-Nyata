@@ -5,8 +5,9 @@ import { startScheduler } from '../helper/cron-scheduler.js';
 import dotenv from "dotenv";
 dotenv.config();
 
-const app = express();
-const PORT = 5000;
+const app = express();  
+
+const PORT = process.env.PORT
 
 app.use(bodyParser.json());
 app.use(router);
