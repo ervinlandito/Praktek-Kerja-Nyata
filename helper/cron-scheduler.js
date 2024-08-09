@@ -27,7 +27,6 @@ const addToDatabase = async () => {
       });
     }
   } else {
-    console.log(`No data is added to database`);
   }
 };
 

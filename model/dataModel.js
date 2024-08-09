@@ -6,6 +6,11 @@ const { DataTypes } = Sequelize;
 const DataKecamatan = db.define(
   "data_kecamatan",
   {
+    id: {
+      type: DataTypes.INTEGER,
+      autoIncrement: true,
+      primaryKey: true
+    },
     uuid: {
       type: DataTypes.STRING,
       defaultValue: DataTypes.UUIDV4,
@@ -26,20 +31,20 @@ const DataKecamatan = db.define(
       allowNull: false,
     },
     baku: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
+      type: DataTypes.BIGINT,
+      allowNull: false
     },
     pokok: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
+      type: DataTypes.BIGINT,
+      allowNull: false
     },
     denda: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
+      type: DataTypes.BIGINT,
+      allowNull: true
     },
     realisasi: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
+      type: DataTypes.BIGINT,
+      allowNull: false
     },
     persentase_realisasi: {
       type: DataTypes.FLOAT,
@@ -51,8 +56,8 @@ const DataKecamatan = db.define(
   }
 );
 
-// (async () => {
-//   await db.sync({ alter: true });
-// })();
+(async () => {
+  await db.sync({ alter: true });
+})();
 
 export default DataKecamatan;
