@@ -1,43 +1,65 @@
 import cron from "node-cron";
 import DataKecamatan from "../model/dataModel.js";
-import { getDataRealisasi } from "../controllers/dataController.js";
 import axios from "axios";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
+import DataPerumahan from "../model/dataPerumahan.js";
+import { getDataRealisasi } from "../controllers/dataController.js";
+import { postDataPerumahan } from "../controllers/dataPerumahan.js";
 
-let cronJobData = null;
-dotenv.config()
+let cronJobDataKecamatan = null;
+let cronJobDataPerumahan = null;
+dotenv.config();
 
 const addToDatabase = async () => {
-  if (cronJobData) {
+  if (cronJobDataKecamatan) {
     try {
-      await DataKecamatan.create(cronJobData);
-      console.log(`Data successfully added into database`);
-      cronJobData = null;
+      await DataKecamatan.create(cronJobDataKecamatan);
+      console.log(`Data Kecamatan successfully added into database`);
+      cronJobDataKecamatan = null;
       logOperation({
-        status: 'success',
-        timestamp: moment().tz('Asia/Jakarta').format(),
-        details: `Data successfully retrieved and saved for date ${tanggal}`
+        status: "success",
+        timestamp: moment().tz("Asia/Jakarta").format(),
+        details: `Data Kecamatan successfully retrieved and saved for date ${tanggal}`,
       });
     } catch (error) {
-      console.error(`Cannot store data into database`);
+      console.error(`Cannot store Data Kecamatan into database`);
       logOperation({
-        status: 'error',
-        timestamp: moment().tz('Asia/Jakarta').format(),
-        details: `Data cannot retrieved`
+        status: "error",
+        timestamp: moment().tz("Asia/Jakarta").format(),
+        details: `Data Kecamatan cannot retrieved`,
       });
     }
-  } else {
+  }
+
+  if (cronJobDataPerumahan) {
+    try {
+      await DataPerumahan.create(cronJobDataPerumahan);
+      console.log(`Data Perumahan successfully added into database`);
+      cronJobDataPerumahan = null;
+      logOperation({
+        status: "success",
+        timestamp: moment().tz("Asia/Jakarta").format(),
+        details: `Data Perumahan successfully retrieved and saved for date${tanggal}`,
+      });
+    } catch (error) {
+      console.error(`Cannot store Data Perumahan into database`);
+      logOperation({
+        status: "error",
+        timestamp: moment().tz("Asia/Jakarta").format(),
+        details: `Data Perumahan cannot retrieved`,
+      });
+    }
   }
 };
 
 export function startScheduler(params) {
-  const scheduleTime = process.env.SCHEDULE_TIME
+  const scheduleTime = process.env.SCHEDULE_TIME;
   cron.schedule(
-   scheduleTime,
+    scheduleTime,
     () => {
       console.log(`Run a cronJob to add to Database`);
-      // getDataRealisasi()
-      axios.post('http://localhost:5000/api/data-realisasi')
+      getDataRealisasi();
+      postDataPerumahan();
       addToDatabase();
     },
     {
@@ -47,6 +69,10 @@ export function startScheduler(params) {
   );
 }
 
-export const setCronJobData = (data) => {
-  cronJobData = data;
+export const setCronJobDataKecamatan = (data) => {
+  cronJobDataKecamatan = data;
+};
+
+export const setCronJobDataPerumahan = (data) => {
+  cronJobDataPerumahan = data;
 };

@@ -9,7 +9,7 @@ const DataKecamatan = db.define(
     id: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
-      primaryKey: true
+      primaryKey: true,
     },
     uuid: {
       type: DataTypes.STRING,
@@ -32,19 +32,19 @@ const DataKecamatan = db.define(
     },
     baku: {
       type: DataTypes.BIGINT,
-      allowNull: false
+      allowNull: false,
     },
     pokok: {
       type: DataTypes.BIGINT,
-      allowNull: false
+      allowNull: false,
     },
     denda: {
       type: DataTypes.BIGINT,
-      allowNull: true
+      allowNull: true,
     },
     realisasi: {
       type: DataTypes.BIGINT,
-      allowNull: false
+      allowNull: false,
     },
     persentase_realisasi: {
       type: DataTypes.FLOAT,
@@ -56,8 +56,8 @@ const DataKecamatan = db.define(
   }
 );
 
-(async () => {
-  await db.sync({ alter: true });
-})();
+// (async () => {
+//   await db.sync({ alter: true });
+// })();
 
 export default DataKecamatan;

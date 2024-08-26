@@ -1,0 +1,152 @@
+[
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T11:28:01+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T11:28:01+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T11:28:01+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T11:28:09+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T11:28:11+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:25:00+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:25:04+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:25:04+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:25:05+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:25:07+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:26:00+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:26:00+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:26:00+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:26:01+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:26:03+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:27:01+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:27:01+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:27:01+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:27:02+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:27:04+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:31:00+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:31:00+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:31:00+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:31:01+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:31:03+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:32:00+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:32:00+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:32:00+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:32:02+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T13:32:04+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-08-26"
+  }
+]
