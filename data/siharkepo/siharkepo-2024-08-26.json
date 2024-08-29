@@ -1,0 +1,101 @@
+[
+  {
+    "IdKomoditi": "BE124",
+    "NamaKomoditi": "Beras IR. 64",
+    "Harga_aft": "13000",
+    "Harga_bef": "13000",
+    "perubahan_harga": "0",
+    "Satuan": "Kg",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/beras.jpg"
+  },
+  {
+    "IdKomoditi": "MI196",
+    "NamaKomoditi": "Minyak Goreng Curah",
+    "Harga_aft": "17000",
+    "Harga_bef": "17000",
+    "perubahan_harga": "0",
+    "Satuan": "Kg",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/minyak.jpg"
+  },
+  {
+    "IdKomoditi": "DA117",
+    "NamaKomoditi": "Daging Sapi",
+    "Harga_aft": "118000",
+    "Harga_bef": "118000",
+    "perubahan_harga": "0",
+    "Satuan": "Kg",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/daging.jpg"
+  },
+  {
+    "IdKomoditi": "DA1810",
+    "NamaKomoditi": "Daging Ayam Potong",
+    "Harga_aft": "29000",
+    "Harga_bef": "29000",
+    "perubahan_harga": "0",
+    "Satuan": "Kg",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/daging_ayam.jpg"
+  },
+  {
+    "IdKomoditi": "TE1812",
+    "NamaKomoditi": "Telur Ayam Broiler",
+    "Harga_aft": "26000",
+    "Harga_bef": "26000",
+    "perubahan_harga": "0",
+    "Satuan": "Kg",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/telur.jpg"
+  },
+  {
+    "IdKomoditi": "GA1819",
+    "NamaKomoditi": "Garam Yodium Batah",
+    "Harga_aft": "4000",
+    "Harga_bef": "4000",
+    "perubahan_harga": "0",
+    "Satuan": "Bungkus",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/garam.jpg"
+  },
+  {
+    "IdKomoditi": "CA1621",
+    "NamaKomoditi": "Cabe Merah Besar",
+    "Harga_aft": "30000",
+    "Harga_bef": "30000",
+    "perubahan_harga": "0",
+    "Satuan": "Kg",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/cabe.jpg"
+  },
+  {
+    "IdKomoditi": "KA1226",
+    "NamaKomoditi": "Kacang Tanah",
+    "Harga_aft": "27000",
+    "Harga_bef": "27000",
+    "perubahan_harga": "0",
+    "Satuan": "Kg",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/kacang.jpg"
+  },
+  {
+    "IdKomoditi": "GU1053",
+    "NamaKomoditi": "Gula Pasir",
+    "Harga_aft": "16000",
+    "Harga_bef": "16000",
+    "perubahan_harga": "0",
+    "Satuan": "Kg",
+    "Tanggal": "2024-08-19 00:00:00",
+    "status_perubahan": "-",
+    "gambar": "http://siharkepo.malangkab.go.id/assets/img2/gula.jpg"
+  }
+]

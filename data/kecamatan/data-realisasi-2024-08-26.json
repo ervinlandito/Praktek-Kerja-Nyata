@@ -18,10 +18,10 @@
       "baku": 2293923698,
       "stimulus": "116555999",
       "koreksi": "20000",
-      "pokok": 1896177386,
+      "pokok": 1896649675,
       "denda": null,
-      "realisasi": 1896177386,
-      "persentase_realisasi": 87.087
+      "realisasi": 1896649675,
+      "persentase_realisasi": 87.108
     },
     {
       "kecamatan": "KALIPARE",
@@ -29,10 +29,10 @@
       "baku": 2201694700,
       "stimulus": "108602623",
       "koreksi": "0",
-      "pokok": 1806650625,
+      "pokok": 1810456769,
       "denda": null,
-      "realisasi": 1806650625,
-      "persentase_realisasi": 86.315
+      "realisasi": 1810456769,
+      "persentase_realisasi": 86.497
     },
     {
       "kecamatan": "TIRTOYUDO",
@@ -40,10 +40,10 @@
       "baku": 1850851173,
       "stimulus": "92446092",
       "koreksi": "0",
-      "pokok": 1428799004,
+      "pokok": 1461307732,
       "denda": null,
-      "realisasi": 1428799004,
-      "persentase_realisasi": 81.255
+      "realisasi": 1461307732,
+      "persentase_realisasi": 83.104
     },
     {
       "kecamatan": "WONOSARI",
@@ -51,10 +51,10 @@
       "baku": 1493650452,
       "stimulus": "89705971",
       "koreksi": "0",
-      "pokok": 990298866,
+      "pokok": 1046688170,
       "denda": null,
-      "realisasi": 990298866,
-      "persentase_realisasi": 70.537
+      "realisasi": 1046688170,
+      "persentase_realisasi": 74.553
     },
     {
       "kecamatan": "DONOMULYO",
@@ -73,10 +73,21 @@
       "baku": 1555215063,
       "stimulus": "74374027",
       "koreksi": "0",
-      "pokok": 983172387,
+      "pokok": 986961667,
       "denda": null,
-      "realisasi": 983172387,
-      "persentase_realisasi": 66.393
+      "realisasi": 986961667,
+      "persentase_realisasi": 66.649
+    },
+    {
+      "kecamatan": "BANTUR",
+      "jumlah_objek": 32142,
+      "baku": 2247647390,
+      "stimulus": "110345538",
+      "koreksi": "0",
+      "pokok": 1264889845,
+      "denda": null,
+      "realisasi": 1264889845,
+      "persentase_realisasi": 59.182
     },
     {
       "kecamatan": "PAGAK",
@@ -91,14 +102,14 @@
     },
     {
       "kecamatan": "PAKISAJI",
-      "jumlah_objek": 39506,
-      "baku": 2349727767,
-      "stimulus": "243766049",
+      "jumlah_objek": 39507,
+      "baku": 2349752767,
+      "stimulus": "243771049",
       "koreksi": "236195",
-      "pokok": 1189843742,
+      "pokok": 1190540652,
       "denda": null,
-      "realisasi": 1189843742,
-      "persentase_realisasi": 56.505
+      "realisasi": 1190540652,
+      "persentase_realisasi": 56.538
     },
     {
       "kecamatan": "NGAJUM",
@@ -117,32 +128,32 @@
       "baku": 2344074471,
       "stimulus": "180718000",
       "koreksi": "0",
-      "pokok": 1146267016,
+      "pokok": 1146311170,
       "denda": null,
-      "realisasi": 1146267016,
-      "persentase_realisasi": 52.986
-    },
-    {
-      "kecamatan": "KASEMBON",
-      "jumlah_objek": 21009,
-      "baku": 1085801091,
-      "stimulus": "65030786",
-      "koreksi": "0",
-      "pokok": 536436733,
-      "denda": null,
-      "realisasi": 536436733,
-      "persentase_realisasi": 52.552
+      "realisasi": 1146311170,
+      "persentase_realisasi": 52.988
     },
     {
       "kecamatan": "PONCOKUSUMO",
-      "jumlah_objek": 71506,
-      "baku": 3179440419,
+      "jumlah_objek": 71507,
+      "baku": 3179476933,
       "stimulus": "244822062",
       "koreksi": "0",
-      "pokok": 1532362100,
+      "pokok": 1550583504,
       "denda": null,
-      "realisasi": 1532362100,
-      "persentase_realisasi": 52.217
+      "realisasi": 1550583504,
+      "persentase_realisasi": 52.837
+    },
+    {
+      "kecamatan": "KASEMBON",
+      "jumlah_objek": 21010,
+      "baku": 1085826091,
+      "stimulus": "65030786",
+      "koreksi": "0",
+      "pokok": 536461733,
+      "denda": null,
+      "realisasi": 536461733,
+      "persentase_realisasi": 52.553
     },
     {
       "kecamatan": "PUJON",
@@ -150,10 +161,10 @@
       "baku": 2336905291,
       "stimulus": "106681660",
       "koreksi": "0",
-      "pokok": 1142561048,
+      "pokok": 1148246514,
       "denda": null,
-      "realisasi": 1142561048,
-      "persentase_realisasi": 51.231
+      "realisasi": 1148246514,
+      "persentase_realisasi": 51.486
     },
     {
       "kecamatan": "DAU",
@@ -161,21 +172,10 @@
       "baku": 3539711121,
       "stimulus": "253409180",
       "koreksi": "63434",
-      "pokok": 1673023225,
+      "pokok": 1675617004,
       "denda": null,
-      "realisasi": 1673023225,
-      "persentase_realisasi": 50.91
-    },
-    {
-      "kecamatan": "BANTUR",
-      "jumlah_objek": 32141,
-      "baku": 2247615975,
-      "stimulus": "110345538",
-      "koreksi": "0",
-      "pokok": 1080457166,
-      "denda": null,
-      "realisasi": 1080457166,
-      "persentase_realisasi": 50.553
+      "realisasi": 1675617004,
+      "persentase_realisasi": 50.989
     },
     {
       "kecamatan": "SUMBERPUCUNG",
@@ -183,21 +183,21 @@
       "baku": 1812179154,
       "stimulus": "105369356",
       "koreksi": "0",
-      "pokok": 856662536,
+      "pokok": 866584070,
       "denda": null,
-      "realisasi": 856662536,
-      "persentase_realisasi": 50.191
+      "realisasi": 866584070,
+      "persentase_realisasi": 50.772
     },
     {
       "kecamatan": "SINGOSARI",
-      "jumlah_objek": 82254,
-      "baku": 5185395976,
-      "stimulus": "356361195",
+      "jumlah_objek": 82258,
+      "baku": 5185563926,
+      "stimulus": "356369451",
       "koreksi": "0",
-      "pokok": 2405926843,
+      "pokok": 2410192913,
       "denda": null,
-      "realisasi": 2405926843,
-      "persentase_realisasi": 49.822
+      "realisasi": 2410192913,
+      "persentase_realisasi": 49.909
     },
     {
       "kecamatan": "GONDANGLEGI",
@@ -205,10 +205,10 @@
       "baku": 2410313410,
       "stimulus": "170513636",
       "koreksi": "319397",
-      "pokok": 1108609616,
+      "pokok": 1108878603,
       "denda": null,
-      "realisasi": 1108609616,
-      "persentase_realisasi": 49.503
+      "realisasi": 1108878603,
+      "persentase_realisasi": 49.515
     },
     {
       "kecamatan": "LAWANG",
@@ -216,10 +216,10 @@
       "baku": 3235181239,
       "stimulus": "194898881",
       "koreksi": "223766",
-      "pokok": 1490354710,
+      "pokok": 1491809052,
       "denda": null,
-      "realisasi": 1490354710,
-      "persentase_realisasi": 49.024
+      "realisasi": 1491809052,
+      "persentase_realisasi": 49.072
     },
     {
       "kecamatan": "PAKIS",
@@ -227,43 +227,21 @@
       "baku": 4892570116,
       "stimulus": "410488443",
       "koreksi": "25000",
-      "pokok": 2119481008,
+      "pokok": 2122986955,
       "denda": null,
-      "realisasi": 2119481008,
-      "persentase_realisasi": 47.288
+      "realisasi": 2122986955,
+      "persentase_realisasi": 47.366
     },
     {
       "kecamatan": "KEPANJEN",
-      "jumlah_objek": 48988,
-      "baku": 3481040305,
-      "stimulus": "256008034",
+      "jumlah_objek": 48993,
+      "baku": 3481229202,
+      "stimulus": "256031248",
       "koreksi": "0",
-      "pokok": 1502790183,
+      "pokok": 1521382417,
       "denda": null,
-      "realisasi": 1502790183,
-      "persentase_realisasi": 46.598
-    },
-    {
-      "kecamatan": "KARANGPLOSO",
-      "jumlah_objek": 50533,
-      "baku": 3591234740,
-      "stimulus": "267477230",
-      "koreksi": "0",
-      "pokok": 1532183311,
-      "denda": null,
-      "realisasi": 1532183311,
-      "persentase_realisasi": 46.098
-    },
-    {
-      "kecamatan": "TUMPANG",
-      "jumlah_objek": 48845,
-      "baku": 2254608042,
-      "stimulus": "171552117",
-      "koreksi": "51356",
-      "pokok": 918328500,
-      "denda": null,
-      "realisasi": 918328500,
-      "persentase_realisasi": 44.087
+      "realisasi": 1521382417,
+      "persentase_realisasi": 47.172
     },
     {
       "kecamatan": "WAJAK",
@@ -271,10 +249,32 @@
       "baku": 2487668140,
       "stimulus": "146135718",
       "koreksi": "582585",
-      "pokok": 1025990163,
+      "pokok": 1081945510,
       "denda": null,
-      "realisasi": 1025990163,
-      "persentase_realisasi": 43.828
+      "realisasi": 1081945510,
+      "persentase_realisasi": 46.218
+    },
+    {
+      "kecamatan": "KARANGPLOSO",
+      "jumlah_objek": 50533,
+      "baku": 3591234740,
+      "stimulus": "267477230",
+      "koreksi": "0",
+      "pokok": 1533201494,
+      "denda": null,
+      "realisasi": 1533201494,
+      "persentase_realisasi": 46.129
+    },
+    {
+      "kecamatan": "TUMPANG",
+      "jumlah_objek": 48845,
+      "baku": 2254608042,
+      "stimulus": "171552117",
+      "koreksi": "51356",
+      "pokok": 934505438,
+      "denda": null,
+      "realisasi": 934505438,
+      "persentase_realisasi": 44.863
     },
     {
       "kecamatan": "SUMBERMANJING WETAN",
@@ -282,10 +282,10 @@
       "baku": 3954132287,
       "stimulus": "145179409",
       "koreksi": "0",
-      "pokok": 1645325976,
+      "pokok": 1645390338,
       "denda": null,
-      "realisasi": 1645325976,
-      "persentase_realisasi": 43.196
+      "realisasi": 1645390338,
+      "persentase_realisasi": 43.198
     },
     {
       "kecamatan": "TAJINAN",
@@ -293,10 +293,10 @@
       "baku": 1592114782,
       "stimulus": "102008295",
       "koreksi": "374572",
-      "pokok": 636265322,
+      "pokok": 636894949,
       "denda": null,
-      "realisasi": 636265322,
-      "persentase_realisasi": 42.71
+      "realisasi": 636894949,
+      "persentase_realisasi": 42.752
     },
     {
       "kecamatan": "BULULAWANG",
@@ -304,21 +304,21 @@
       "baku": 2228207616,
       "stimulus": "148444800",
       "koreksi": "0",
-      "pokok": 840731750,
+      "pokok": 841014937,
       "denda": null,
-      "realisasi": 840731750,
-      "persentase_realisasi": 40.424
+      "realisasi": 841014937,
+      "persentase_realisasi": 40.438
     },
     {
       "kecamatan": "JABUNG",
-      "jumlah_objek": 41688,
-      "baku": 1808897148,
-      "stimulus": "139736517",
+      "jumlah_objek": 41690,
+      "baku": 1808947148,
+      "stimulus": "139744766",
       "koreksi": "105376",
-      "pokok": 673799735,
+      "pokok": 673861486,
       "denda": null,
-      "realisasi": 673799735,
-      "persentase_realisasi": 40.37
+      "realisasi": 673861486,
+      "persentase_realisasi": 40.373
     },
     {
       "kecamatan": "DAMPIT",
@@ -326,21 +326,21 @@
       "baku": 3431630341,
       "stimulus": "221078661",
       "koreksi": "0",
-      "pokok": 1282173914,
+      "pokok": 1282498149,
       "denda": null,
-      "realisasi": 1282173914,
-      "persentase_realisasi": 39.936
+      "realisasi": 1282498149,
+      "persentase_realisasi": 39.946
     },
     {
       "kecamatan": "TUREN",
-      "jumlah_objek": 60183,
-      "baku": 3059281329,
-      "stimulus": "234286801",
+      "jumlah_objek": 60182,
+      "baku": 3059246761,
+      "stimulus": "234276924",
       "koreksi": "170258",
-      "pokok": 1055444806,
+      "pokok": 1063665726,
       "denda": null,
-      "realisasi": 1055444806,
-      "persentase_realisasi": 37.363
+      "realisasi": 1063665726,
+      "persentase_realisasi": 37.655
     },
     {
       "kecamatan": "GEDANGAN",
@@ -348,10 +348,10 @@
       "baku": 2125317012,
       "stimulus": "101602515",
       "koreksi": "0",
-      "pokok": 682970136,
+      "pokok": 711046581,
       "denda": null,
-      "realisasi": 682970136,
-      "persentase_realisasi": 33.748
+      "realisasi": 711046581,
+      "persentase_realisasi": 35.136
     },
     {
       "kecamatan": "PAGELARAN",
