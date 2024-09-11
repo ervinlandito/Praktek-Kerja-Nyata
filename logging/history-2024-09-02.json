@@ -1,0 +1,147 @@
+[
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:38:00+07:00",
+    "details": "Failed to retrieve data: Request failed with status code 404"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:38:00+07:00",
+    "details": "StuntingData cannot retrieved : Request failed with status code 404"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:38:00+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:38:00+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:38:00+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:38:02+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:38:04+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-09-02"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:38:21+07:00",
+    "details": "Failed to retrieve data: connect ETIMEDOUT 172.16.24.2:80"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:38:21+07:00",
+    "details": "Data Komoditi cannot retrieved : connect ETIMEDOUT 172.16.24.2:80"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:38:21+07:00",
+    "details": "Failed to retrieve data: connect ETIMEDOUT 172.16.26.31:80"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:38:21+07:00",
+    "details": "Siharkepo cannot retrieved : connect ETIMEDOUT 172.16.26.31:80"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:40:00+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:40:00+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:40:00+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:40:01+07:00",
+    "details": "Successfully get stunting from https://v1.nocodeapi.com/dedik2urniawan/google_sheets/hWOnlmbNQPdwkLrW?tabId=Malang for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:40:02+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:40:02+07:00",
+    "details": "StuntingData successfully retrieved and saved on db for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:40:04+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-09-02"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:40:21+07:00",
+    "details": "Failed to retrieve data: connect ETIMEDOUT 172.16.26.31:80"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:40:21+07:00",
+    "details": "Siharkepo cannot retrieved : connect ETIMEDOUT 172.16.26.31:80"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:40:21+07:00",
+    "details": "Failed to retrieve data: connect ETIMEDOUT 172.16.24.2:80"
+  },
+  {
+    "status": "error",
+    "timestamp": "2024-09-02T08:40:21+07:00",
+    "details": "Data Komoditi cannot retrieved : connect ETIMEDOUT 172.16.24.2:80"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:41:00+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:41:00+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:41:00+07:00",
+    "details": "Successfully get stunting from https://v1.nocodeapi.com/dedik2urniawan/google_sheets/hWOnlmbNQPdwkLrW?tabId=Malang for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:41:00+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:41:01+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:41:01+07:00",
+    "details": "StuntingData successfully retrieved and saved on db for date 2024-09-02"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-09-02T08:41:03+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-09-02"
+  }
+]

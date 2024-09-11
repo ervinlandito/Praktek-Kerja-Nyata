@@ -2,17 +2,19 @@ import cron from "node-cron";
 import DataKecamatan from "../model/dataModel.js";
 import dotenv from "dotenv";
 import DataPerumahan from "../model/dataPerumahan.js";
+import Siharkepo from "../model/siharkepo.js";
+import Komoditi from "../model/komoditi.js";
 import { getDataRealisasi } from "../controllers/datakecamatan.js";
 import { postDataPerumahan } from "../controllers/dataPerumahan.js";
 import { postDataSiharkepo } from "../controllers/siharkepo.js";
-import Siharkepo from "../model/siharkepo.js";
-import Komoditi from "../model/komoditi.js";
 import { postDatakomoditi } from "../controllers/komoditi.js";
+import { postDataStunting } from "../controllers/stunting.js";
 
 let cronJobDataKecamatan = null;
 let cronJobDataPerumahan = null;
 let cronJobSiharkepo = null;
 let cronJobKomoditi = null;
+let cronJobStunting = null;
 dotenv.config();
 
 const addToDatabase = async () => {
@@ -94,6 +96,26 @@ const addToDatabase = async () => {
       });
     }
   }
+
+  if (cronJobStunting) {
+    try {
+      await Komoditi.create(cronJobStunting);
+      console.log(`Stunting successfully added into database`);
+      cronJobStunting = null;
+      logOperation({
+        status: "success",
+        timestamp: moment().tz("Asia/Jakarta").format(),
+        details: `Stunting successfully retrieved and saved for date${tanggal}`,
+      });
+    } catch (error) {
+      console.error(`Cannot store Stunting into database`);
+      logOperation({
+        status: "error",
+        timestamp: moment().tz("Asia/Jakarta").format(),
+        details: `Stunting cannot retrieved`,
+      });
+    }
+  }
 };
 
 export function startScheduler(params) {
@@ -106,6 +128,7 @@ export function startScheduler(params) {
       postDataPerumahan();
       postDataSiharkepo();
       postDatakomoditi();
+      postDataStunting();
       addToDatabase();
     },
     {
@@ -124,5 +147,13 @@ export const setCronJobDataPerumahan = (data) => {
 };
 
 export const setCronJobDataSiharkepo = (data) => {
+  cronJobSiharkepo = data;
+};
+
+export const setCronJobDataKomoditi = (data) => {
+  cronJobSiharkepo = data;
+};
+
+export const setCronJobDataStunting = (data) => {
   cronJobSiharkepo = data;
 };

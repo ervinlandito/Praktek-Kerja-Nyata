@@ -79,8 +79,4 @@ const Komoditi = db.define(
   }
 );
 
-// (async () => {
-//   await db.sync({ alter: true });
-// })();
-
 export default Komoditi;
