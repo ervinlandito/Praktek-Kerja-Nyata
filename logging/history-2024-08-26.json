@@ -1,0 +1,47 @@
+[
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:00+07:00",
+    "details": "Successfully get siharkepo from http://172.16.26.31/siharkepo/siharkepo for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:00+07:00",
+    "details": "Successfully get Komoditi from http://172.16.24.2/rest_komoditi/api/Komoditi for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:00+07:00",
+    "details": "Successfully get dataKecamatan from https://esppt.id/simpbb/api/ for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:01+07:00",
+    "details": "Siharkepo successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:01+07:00",
+    "details": "DataKecamatan successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:01+07:00",
+    "details": "Data Komoditi successfully retrieved and saved on db for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:01+07:00",
+    "details": "Successfully obtained token"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:01+07:00",
+    "details": "Successfully get dataPerumahan from http://103.175.237.238:83/api/data-perumahan for date 2024-08-26"
+  },
+  {
+    "status": "success",
+    "timestamp": "2024-08-26T15:24:04+07:00",
+    "details": "Data Perumahan successfully retrieved and saved on db for date 2024-08-26"
+  }
+]
